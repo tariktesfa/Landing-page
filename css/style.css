@@ -1,6 +1,8 @@
 body {
-  color: #000000;
-  /* background-color: #000000; */
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 70%;
 }
 
 .background {
@@ -22,11 +24,15 @@ body {
 
 .quote {
     background-color: #E5E7EB;
+    padding: 10px 70px;
+    margin: 0 -170px;
 }
 
+
 .quote p {
-    font-size: 36px;
+    font-size: 27px;
     color: #1F2937;
+    text-align: center;
 }
 
 button {
@@ -35,3 +41,51 @@ button {
     padding: 10px 20px;
     border-radius: 4px;
 }
+
+.information-header-text {
+    font-size: 36px;
+    font-weight: bolder;
+    text-align: center;
+}
+
+.info-img{
+    width: 100px;
+    height: 70px;  
+    padding: 50px;
+    border-radius: 12px;
+    border: 4px solid #3882F6;
+    float:right;
+}
+
+.horizontal{
+    list-style-type: none;
+    
+}
+
+/* Create three equal columns that floats next to each other */
+.column {
+    float: left;
+    width: 20.33%;
+    padding: 20px;
+    height: 230px; /* Should be removed. Only for demonstration */
+  }
+  
+  /* Clear floats after the columns */
+  .row:after {
+    content: "";
+    display: table;
+    clear: both;
+  }
+
+  .text-quote {
+      font-style: italic;
+  }
+  .buttom-quote-title {
+      font-weight: 900;
+      padding-left: 570px;
+  }
+
+  .sub-text {
+      text-align: justify;
+      color: #686869;
+  }
