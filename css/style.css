@@ -2,3 +2,65 @@ body {
   color: #000000;
   /* background-color: #000000; */
 }
+
+.background {
+    background-color: #1F2937;
+    margin: 0;
+    color: #FFF;
+}
+
+.header li {
+    text-decoration: none;
+    list-style: none;   
+}
+
+.hero {
+    font-size: 48px;
+    font-weight: 600;
+    color: #F9FAF8;
+}
+
+.quote {
+    background-color: #E5E7EB;
+}
+
+.quote p {
+    font-size: 36px;
+    color: #1F2937;
+}
+
+button {
+    background-color: #3882F6;
+    color: #FFFF;
+    padding: 10px 30px;
+    border-radius: 10px;
+    border-color: #FFFF;
+    float: right;
+}
+.btn {
+  flex: 30%;
+}
+.footer {
+  background-color: #1F2937;
+  margin-top: 20px;
+  padding: 20px 20px 20px;
+  color: #FFF;
+  border: #1F2937;
+
+}
+.sign{
+  background-color: #FFF;
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+.inner{
+  background-color: #3882F6;
+  margin: 100px 100px 100px 100px;
+  padding: 30px 20px 20px 20px;
+  border-radius: 10px;
+  display: flex;
+}
+.inner p{
+  color: #FFF;
+}
+
